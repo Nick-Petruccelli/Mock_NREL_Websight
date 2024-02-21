@@ -235,9 +235,24 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #323232;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .prod__cons__res__container h2 {
     color: #fff;
     text-align: center;
+}
+
+.prod__cons__res__container h3 {
+    color: #fff;
+}
+
+.info__divider {
+    margin-top: 1rem;
+}
+
+#info_text {
+    padding-left: 1rem;
+    padding-top: .5rem;
 }
