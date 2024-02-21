@@ -166,7 +166,7 @@ body {
 }
 
 .main__container h1 {
-    color: #47BAE4;
+    color: #fff;
     font-size: 4rem;
 }
 
@@ -214,4 +214,30 @@ body {
     font-size: 1.5rem;
     padding-top: 1rem;
     padding-left: 2rem;
+}
+
+.optimization__graph__header {
+    color: #fff;
+    text-align: center;
+}
+
+.optimization__graph__btn__div {
+    text-align: center;
+}
+
+.optimization__graph__btn {
+    background-color: aquamarine;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.prod__cons__res__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #323232;
+}
+
+.prod__cons__res__container h2 {
+    color: #fff;
+    text-align: center;
 }
